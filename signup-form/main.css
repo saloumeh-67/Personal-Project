@@ -1,0 +1,17 @@
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to left, rgba(147, 83, 162, 0), rgb(139, 87, 182));
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+        background-color: #e2b7ec;
+        border-radius: 30px;
+        box-sizing: border-box;
+        margin-top: 150px;
+        height: 500px;
+        padding: 20px;
+        width: 350px;
+        justify-content: space-between;
+}
