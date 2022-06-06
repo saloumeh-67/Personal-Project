@@ -13,5 +13,29 @@ body{
         height: 500px;
         padding: 20px;
         width: 350px;
-        justify-content: space-between;
+        color: gray;
+        box-shadow: 1em;
 }
+input{
+    margin: 6% 0%;
+    padding: 12px 20px;
+    justify-content: center;
+    border: 2px transparent solid;
+    border-radius: 8px;
+    width: 250px;
+    color: beige;
+    text-align: center;
+    
+    }
+
+ button{
+    background-color: rgb(157, 94, 163);
+    width: 300px;
+    margin:2% 0%;
+    padding: 10px; 
+    border: #e2b7ec solid;
+    border-radius: 8px;
+    cursor: pointer;
+    color: azure;
+    text-align: center;
+ }
