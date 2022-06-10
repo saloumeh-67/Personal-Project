@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the right number</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <container>
+        <h1>Guess the right Number</h1>
+    <strong><p>We have selected a random number between 1 and 100. <br> See if you can guess it in 10 turns or fewer. We'll tell you if your
+    guess was too high or too low.</p></strong>
+    <h3><lable>Guess the number</lable></h3>
+    <input class="guessField" type="number" id="number" name= "number" >
+    <button class="guessSubmit" type="submit" value="submit">Go</button>
+    </container>
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div>
+    <script>
+       let randomNumber = Math.floor(Math.random() * 100) + 1;
+       const guesses = document.querySelector('.guesses');
+        const lastResult = document.querySelector('.lastResult');
+        const lowOrHi = document.querySelector('.lowOrHi');
+
+        const guessSubmit = document.querySelector('.guessSubmit');
+        const guessField = document.querySelector('.guessField');
+
+        let guessCount = 1;
+        let resetButton;
+    </script>
+</body>
+</html>
